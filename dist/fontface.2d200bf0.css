@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "dolcevita_reg";
+    src: url("/DolceVita.d26535dc.woff2") format("woff2"),
+         url("/DolceVita.71fb83d6.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "dolcevita_bold";
+    src: url("/DolceVitaHeavyBold.5dc52a77.woff2") format("woff2"),
+         url("/DolceVitaHeavyBold.bd8f523c.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "dolcevita_light";
+    src: url("/DolceVitaLight.b9684043.woff2") format("woff2"),
+         url("/DolceVitaLight.683b8d79.woff") format("woff");
+  }
+
+/*# sourceMappingURL=/fontface.2d200bf0.css.map */

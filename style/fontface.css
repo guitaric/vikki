@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "dolcevita_reg";
+    src: url("../material/fonts/DolceVita.woff2") format("woff2"),
+         url("../material/fonts/DolceVita.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "dolcevita_bold";
+    src: url("../material/fonts/DolceVitaHeavyBold.woff2") format("woff2"),
+         url("../material/fonts/DolceVitaHeavyBold.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "dolcevita_light";
+    src: url("../material/fonts/DolceVitaLight.woff2") format("woff2"),
+         url("../material/fonts/DolceVitaLight.woff") format("woff");
+  }

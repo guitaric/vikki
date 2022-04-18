@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "dolcevita_reg", sans-serif ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    /* background-color: lightblue; */
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.titleContainer {
+    position: absolute;
+    /* top: 50px; */
+    /* left: 100px; */
+    width: 100%;
+    height: 100px;
+
+    background-color: white;
+    color: black;
+    font-size: 48px;
+
+    z-index: 10;
+}
+
+.titleHolder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+}
+
+.buttonContainer, .shadowButtonContainer {
+    position: absolute;
+    left: 255px;
+    width: 300px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+
+}
+
+.buttonContainerRight {
+    position: absolute;
+    right: 0px;
+    width: 160px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 24px;
+
+    overflow: hidden;
+
+}
+
+.buttonContainer {
+    z-index: -1;
+}
+
+.shadowButtonContainer {
+    z-index: 20;
+    /* cursor:pointer; */
+}
+
+.buttonHolder {
+    height: 418px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    min-width: 160px;
+    padding: 5px 10px;
+
+    text-align: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.shadowButtons {
+    min-width: 160px;
+    padding: 5px 10px;
+
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    color: transparent;
+
+    cursor: pointer;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.fullHeightVideoContainer {
+    position: relative;
+
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightblue; */
+
+    z-index: 5;
+
+    /* pointer-events: none; */
+
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+
+#viktorVideo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    filter:grayscale(100%);
+
+
+    pointer-events: none;
+}
+
+#viktorVideo2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    filter:grayscale(100%);
+
+
+    pointer-events: none;
+}
+
+#projectLink {
+    /* visibility: hidden; */
+}
+
+
+
+/* projects */
+
+.projectContainer {
+    margin: 100px 10px 10px 10px;
+    padding: 20px;
+
+    width: 80%;
+    height: calc(100% - 110px);
+
+
+    background-color: lightgrey;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+
+.slickContainer {
+    height: 100%;
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+
+.slickElement {
+    width: 500px;
+    height: 600px;
+
+}
+
+.projectImg {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.projectImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.montyHandImg {
+    position: absolute;
+    right: 0;
+    top: 180px;
+    width: 100px;
+
+    transform: scale(-1, 1);
+
+    z-index: 50;
+
+}
+
+.montyHandImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.lightcoral {
+    background-color: lightcoral;
+}
+.lightblue {
+    background-color: lightblue;
+}
+.lightgolden {
+    background-color: lightgoldenrodyellow;
+}
+.lightgreen {
+    background-color: lightgreen;
+}
+
+
+
+
+
+.weatherButton {
+    position: absolute;
+    
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    right: 30%;
+
+    background-color: lavender;
+    cursor: pointer;
+    z-index: 2000000;
+}
+
+.weatherBackground {
+    display: none;
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url("../material/images/wetter.jpg");
+    background-size: cover;
+    background-position: center center;
+}

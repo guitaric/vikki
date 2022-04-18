@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viktor Fidel</title>
+
+  <link rel="stylesheet" href="/jquery-ui.584c87ce.css">
+
+  <link rel="stylesheet" href="/fontface.2d200bf0.css">
+  <link rel="stylesheet" href="/style.493e6e98.css">
+
+  <link rel="stylesheet" type="text/css" href="/slick.10ee4f5f.css">
+  <link rel="stylesheet" type="text/css" href="/slick-theme.a9b3416b.css">
+
+
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="module"></script>
+  <script type="text/javascript" src="/slick.min.6532da67.js"></script>
+
+  <script src="/import-jquery.89547f03.js" type="module"></script>
+  <script src="/test.bfc5c598.js" type="module"></script>
+  <script src="/transition.f6bb2fc7.js" type="module"></script>
+
+
+
+<script src="/jquery-ui.584c87ce.js"></script><script src="/fontface.2d200bf0.js"></script><script src="/style.493e6e98.js"></script><script src="/slick.10ee4f5f.js"></script><script src="/slick-theme.a9b3416b.js"></script></head>
+
+
+
+<body>
+
+  <div class="weatherButton"></div>
+  <div class="weatherBackground"></div>
+
+
+  <div class="titleContainer">
+    <div class="titleHolder">
+      <a href="/index.html">
+        VIKTOR FIDEL
+      </a>
+    </div>
+    <div class="menuHolder">
+      <a id="projectLink" href="/projects.html"></a>
+      <a id="funandartLink" href="/funandart.html"></a>
+    </div>
+  </div>
+
+  <main data-router-wrapper="">
+    <div data-router-view="index">
+
+
+      <div class="buttonContainer">
+        <div class="buttonHolder">
+          <div class="buttons button1">VITA</div>
+          <div class="buttons button2">PROJECTS</div>
+          <div class="buttons button3">PICS / VIDS</div>
+          <div class="buttons button4">CONTACT</div>
+          <div class="buttons button5">FUN AND ART</div>
+        </div>
+      </div>
+
+
+      <div class="shadowButtonContainer">
+        <div class="buttonHolder">
+          <div class="shadowButtons button1">VITA</div>
+          <div class="shadowButtons button2">PROJECTS</div>
+          <div class="shadowButtons button3">PICS / VIDS</div>
+          <div class="shadowButtons button4">CONTACT</div>
+          <div class="shadowButtons button5">FUN AND ART</div>
+        </div>
+      </div>
+
+
+
+      <div class="fullHeightVideoContainer">
+        <!-- <video id='viktorVideo' src="material/movie-webm.webm" autoplay muted></video> -->
+        <video id="viktorVideo" src="/viktor1.9aeec957.webm" muted=""></video>
+        <video id="viktorVideo2" src="/viktor2.b1b36e13.webm" muted=""></video>
+      </div>
+
+    </div>
+  </main>
+
+
+</body>
+
+</html>
+
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+  var video4 = document.getElementById('viktorVideo2');
+  var video3 = document.getElementById('viktorVideo');
+
+  video3.onended = function (e) {
+    $('#projectLink').get(0).click();
+  };
+
+  video4.onended = function (e) {
+    $('#funandartLink').get(0).click();
+  };
+});</script>

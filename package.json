@@ -1,0 +1,24 @@
+{
+  "name": "viktor-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.10.2",
+    "jquery": "^3.6.0",
+    "jquery-ui-dist": "^1.13.1",
+    "slick-carousel": "^1.8.1",
+    "transition": "^0.1.1"
+  }
+}
