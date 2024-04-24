@@ -190,7 +190,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./images\\ui-icons_444444_256x240.png":[["ui-icons_444444_256x240.f8c3c4f4.png","node_modules/jquery-ui-dist/images/ui-icons_444444_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_444444_256x240.png"],"./images\\ui-icons_555555_256x240.png":[["ui-icons_555555_256x240.06707278.png","node_modules/jquery-ui-dist/images/ui-icons_555555_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_555555_256x240.png"],"./images\\ui-icons_ffffff_256x240.png":[["ui-icons_ffffff_256x240.a9f698b3.png","node_modules/jquery-ui-dist/images/ui-icons_ffffff_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_ffffff_256x240.png"],"./images\\ui-icons_777620_256x240.png":[["ui-icons_777620_256x240.3ec60808.png","node_modules/jquery-ui-dist/images/ui-icons_777620_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_777620_256x240.png"],"./images\\ui-icons_cc0000_256x240.png":[["ui-icons_cc0000_256x240.ab85b4cb.png","node_modules/jquery-ui-dist/images/ui-icons_cc0000_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_cc0000_256x240.png"],"./images\\ui-icons_777777_256x240.png":[["ui-icons_777777_256x240.cadd49a4.png","node_modules/jquery-ui-dist/images/ui-icons_777777_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_777777_256x240.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./images\\ui-icons_444444_256x240.png":[["ui-icons_444444_256x240.f8c3c4f4.png","node_modules/jquery-ui-dist/images/ui-icons_444444_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_444444_256x240.png"],"./images\\ui-icons_555555_256x240.png":[["ui-icons_555555_256x240.06707278.png","node_modules/jquery-ui-dist/images/ui-icons_555555_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_555555_256x240.png"],"./images\\ui-icons_ffffff_256x240.png":[["ui-icons_ffffff_256x240.a9f698b3.png","node_modules/jquery-ui-dist/images/ui-icons_ffffff_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_ffffff_256x240.png"],"./images\\ui-icons_777620_256x240.png":[["ui-icons_777620_256x240.3ec60808.png","node_modules/jquery-ui-dist/images/ui-icons_777620_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_777620_256x240.png"],"./images\\ui-icons_cc0000_256x240.png":[["ui-icons_cc0000_256x240.ab85b4cb.png","node_modules/jquery-ui-dist/images/ui-icons_cc0000_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_cc0000_256x240.png"],"./images\\ui-icons_777777_256x240.png":[["ui-icons_777777_256x240.cadd49a4.png","node_modules/jquery-ui-dist/images/ui-icons_777777_256x240.png"],"node_modules/jquery-ui-dist/images/ui-icons_777777_256x240.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -218,7 +218,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56100" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56285" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -394,5 +394,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/jquery-ui.584c87ce.js.map

@@ -1,7 +1,10 @@
 @font-face {
     font-family: "dolcevita_reg";
-    src: url("/DolceVita.d26535dc.woff2") format("woff2"),
-         url("/DolceVita.71fb83d6.woff") format("woff");
+    src: 
+          /* url("../material/fonts/DolceVita.woff2") format("woff2"),
+         url("../material/fonts/DolceVita.woff") format("woff"); */
+          url("/GnuolaneRg-Regular.13b63671.woff2") format("woff2"),
+         url("/GnuolaneRg-Regular.048e1666.woff") format("woff");
   }
 
 @font-face {

@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/fontface.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/fontface.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\material\\fonts\\DolceVita.woff2":[["DolceVita.d26535dc.woff2","material/fonts/DolceVita.woff2"],"material/fonts/DolceVita.woff2"],"./..\\material\\fonts\\DolceVita.woff":[["DolceVita.71fb83d6.woff","material/fonts/DolceVita.woff"],"material/fonts/DolceVita.woff"],"./..\\material\\fonts\\DolceVitaHeavyBold.woff2":[["DolceVitaHeavyBold.5dc52a77.woff2","material/fonts/DolceVitaHeavyBold.woff2"],"material/fonts/DolceVitaHeavyBold.woff2"],"./..\\material\\fonts\\DolceVitaHeavyBold.woff":[["DolceVitaHeavyBold.bd8f523c.woff","material/fonts/DolceVitaHeavyBold.woff"],"material/fonts/DolceVitaHeavyBold.woff"],"./..\\material\\fonts\\DolceVitaLight.woff2":[["DolceVitaLight.b9684043.woff2","material/fonts/DolceVitaLight.woff2"],"material/fonts/DolceVitaLight.woff2"],"./..\\material\\fonts\\DolceVitaLight.woff":[["DolceVitaLight.683b8d79.woff","material/fonts/DolceVitaLight.woff"],"material/fonts/DolceVitaLight.woff"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\material\\fonts\\GnuolaneRg-Regular.woff2":[["GnuolaneRg-Regular.13b63671.woff2","material/fonts/GnuolaneRg-Regular.woff2"],"material/fonts/GnuolaneRg-Regular.woff2"],"./..\\material\\fonts\\GnuolaneRg-Regular.woff":[["GnuolaneRg-Regular.048e1666.woff","material/fonts/GnuolaneRg-Regular.woff"],"material/fonts/GnuolaneRg-Regular.woff"],"./..\\material\\fonts\\DolceVitaHeavyBold.woff2":[["DolceVitaHeavyBold.5dc52a77.woff2","material/fonts/DolceVitaHeavyBold.woff2"],"material/fonts/DolceVitaHeavyBold.woff2"],"./..\\material\\fonts\\DolceVitaHeavyBold.woff":[["DolceVitaHeavyBold.bd8f523c.woff","material/fonts/DolceVitaHeavyBold.woff"],"material/fonts/DolceVitaHeavyBold.woff"],"./..\\material\\fonts\\DolceVitaLight.woff2":[["DolceVitaLight.b9684043.woff2","material/fonts/DolceVitaLight.woff2"],"material/fonts/DolceVitaLight.woff2"],"./..\\material\\fonts\\DolceVitaLight.woff":[["DolceVitaLight.683b8d79.woff","material/fonts/DolceVitaLight.woff"],"material/fonts/DolceVitaLight.woff"],"_css_loader":"../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56100" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56285" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../Users/Taric Lallai/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/fontface.2d200bf0.js.map

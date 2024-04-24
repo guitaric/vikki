@@ -3,6 +3,8 @@
     padding: 0;
 
     font-family: "dolcevita_reg", sans-serif ;
+
+    color: #2e2e2e !important;
 }
 
 body {
@@ -28,7 +30,7 @@ a:visited {
     position: absolute;
     /* top: 50px; */
     /* left: 100px; */
-    width: 100%;
+    width: calc(100% - 200px);
     height: 100px;
 
     background-color: white;
@@ -36,13 +38,22 @@ a:visited {
     font-size: 48px;
 
     z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0;
 }
 
-.titleHolder {
+/* .titleHolder {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 100px;
+} */
+.titleHolder2 {
+    width: 200px; 
+    display: flex;
+    justify-content: space-between;  
 }
 
 .buttonContainer, .shadowButtonContainer {
@@ -90,7 +101,7 @@ a:visited {
     justify-content: space-between;
 }
 
-.buttons {
+/* .buttons {
     min-width: 160px;
     padding: 5px 10px;
 
@@ -98,7 +109,20 @@ a:visited {
     border-radius: 20px;
     background-color: lightgrey;
     color: black;
+} */
+
+
+.buttons {
+    min-width: 120px;
+    padding: 11px 10px;
+    text-align: start;
+    /* border-radius: 69px; */
+    color: black;
+    /* border: 2px solid #f3eded; */
+    font-size: 48px;
 }
+
+
 
 .shadowButtons {
     min-width: 160px;
