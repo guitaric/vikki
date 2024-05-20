@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 
+    box-sizing: border-box;
+
     font-family: "dolcevita_reg", sans-serif ;
 
     color: #2e2e2e !important;
@@ -25,6 +27,38 @@ a {
 a:visited {
     color: black;
 }
+
+
+.fullMarqueeHolder {
+    display: flex;
+    gap: 50px;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 3px solid black;
+
+}
+
+.oneMarqueeElem {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
 
 .titleContainer {
     position: absolute;
@@ -60,7 +94,7 @@ a:visited {
     position: absolute;
     left: 255px;
     width: 300px;
-    height: 100%;
+    height: calc(100vh - 60px);
 
     display: flex;
     align-items: center;
@@ -143,7 +177,7 @@ a:visited {
 .fullHeightVideoContainer {
     position: relative;
 
-    height: 100vh;
+    height: calc(100vh - 60px);
     width: 100%;
     /* background-color: lightblue; */
 
@@ -152,7 +186,6 @@ a:visited {
     /* pointer-events: none; */
 
     box-sizing: border-box;
-    border: 2px solid red;
 }
 
 
@@ -273,6 +306,7 @@ a:visited {
     background-color: lavender;
     cursor: pointer;
     z-index: 2000000;
+    display: none;
 }
 
 .weatherBackground {
