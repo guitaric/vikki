@@ -133,13 +133,47 @@
     var video4 = document.getElementById('viktorVideo2');
     var video3 = document.getElementById('viktorVideo');
 
-    video3.onended = function (e) {
-      $('#projectLink').get(0).click();
-    };
+    // video3.onended = function (e) {
+    //   $('#projectLink').get(0).click();
+    // };
 
-    video4.onended = function (e) {
-      $('#funandartLink').get(0).click();
-    };
+    // video4.onended = function (e) {
+    //   $('#funandartLink').get(0).click();
+    // };
+
+    console.log(video4.readyState)
+
+          video4.addEventListener('loadeddata', (e) => {
+        //Video should now be loaded but we can add a second check
+
+        if(video4.readyState >= 3){
+            //your code goes here
+            console.log("HIii")
+            
+            // var mouseX;
+            // $(document).mousemove( function(e) {
+            //     mouseX = e.pageX; 
+            
+            //     console.log(mouseX)
+            //     var timV = video4.duration;
+            //     var valV = (timV*mouseX/$(window).width());
+            
+            //     video4.currentTime = valV;
+            
+            // });
+
+            setInterval(() => {
+              var timV = video4.duration;
+              var valV = (Math.random() * timV);
+              console.log(valV)
+              video4.currentTime = valV;
+              
+            }, 2000);
+        }
+
+      })
+
+
 
   });
 

@@ -41,6 +41,12 @@
     <div class="oneMarqueeElem">
       digital Viktor F is temporarily on vacation due to maintenance work on the website
     </div>
+    <div class="oneMarqueeElem">
+      digital Viktor F is temporarily on vacation due to maintenance work on the website
+    </div>
+    <div class="oneMarqueeElem">
+      digital Viktor F is temporarily on vacation due to maintenance work on the website
+    </div>
   </div>
 
   <div class="weatherButton"></div>
@@ -116,13 +122,33 @@
 
 <script>document.addEventListener("DOMContentLoaded", function () {
   var video4 = document.getElementById('viktorVideo2');
-  var video3 = document.getElementById('viktorVideo');
+  var video3 = document.getElementById('viktorVideo'); // video3.onended = function (e) {
+  //   $('#projectLink').get(0).click();
+  // };
+  // video4.onended = function (e) {
+  //   $('#funandartLink').get(0).click();
+  // };
 
-  video3.onended = function (e) {
-    $('#projectLink').get(0).click();
-  };
+  console.log(video4.readyState);
+  video4.addEventListener('loadeddata', function (e) {
+    //Video should now be loaded but we can add a second check
+    if (video4.readyState >= 3) {
+      //your code goes here
+      console.log("HIii"); // var mouseX;
+      // $(document).mousemove( function(e) {
+      //     mouseX = e.pageX; 
+      //     console.log(mouseX)
+      //     var timV = video4.duration;
+      //     var valV = (timV*mouseX/$(window).width());
+      //     video4.currentTime = valV;
+      // });
 
-  video4.onended = function (e) {
-    $('#funandartLink').get(0).click();
-  };
+      setInterval(function () {
+        var timV = video4.duration;
+        var valV = Math.random() * timV;
+        console.log(valV);
+        video4.currentTime = valV;
+      }, 2000);
+    }
+  });
 });</script>
